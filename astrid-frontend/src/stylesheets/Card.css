@@ -2,23 +2,28 @@
     background: linear-gradient(to right, white, rgb(206, 203, 203));
     border: 2px solid rgb(119, 118, 118);
     width: 300px;
-    height: auto;
+    height: 350px;
     display: flex;
-    border-radius: 15px;
+    /* border-radius: 10px; */
     flex-flow: column;
     text-align: center;
     margin-bottom: 2rem;
-    box-shadow: 1px 2px rgb(163, 157, 157);
+    /* box-shadow: 1px 2px rgb(163, 157, 157); */
     cursor: pointer;
     position:relative
 }
 
-.zodiac-card:hover {
+ .zodiac-card:hover {
     transform: scale(1.05);
 }
 
+.zodiac-img {
+    height: 400px;
+    width: 300px;
+}
 
-.fade::after{
+
+/* .fade::after{
     content: "Zodiac";
     font-size: 30px;
     color: white; 
@@ -37,4 +42,4 @@
 
 .fade:hover:after {
     opacity: .55;
-}
+} */

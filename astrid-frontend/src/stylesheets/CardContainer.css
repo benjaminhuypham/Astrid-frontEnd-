@@ -3,8 +3,10 @@
 
 .card-container {
     display: block;
-    font-family: 'Cinzel', serif;  
-    
+    font-family: 'Cinzel', serif; 
+    /* background-image: url(../images/stars.jpeg);
+    background-repeat: no-repeat; 
+    background-size: cover; */
 }
 
 .card-container h1 {
@@ -17,11 +19,6 @@
     justify-content: space-evenly;
     list-style: none;
 }
-
-
-
-
-
 
 
 /* .fade::after {
